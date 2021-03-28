@@ -1,0 +1,36 @@
+{
+  "peko.ambient1": {
+    "category": "neutral",
+    "sounds": [
+      "holomobs:peko_ambient1",
+      "holomobs:peko_ambient2",
+      "holomobs:peko_ambient3"
+    ],
+    "subtitle": "holomobs:subtitles.pekora.ambient"
+  },
+  "peko.ambient2": {
+    "category": "neutral",
+    "sounds": [
+      "holomobs:peko_ambient4"
+    ],
+    "subtitle": "holomobs:subtitles.pekora.konpeko"
+  },
+  "peko.hurt": {
+    "category": "neutral",
+    "sounds": [
+      "holomobs:peko_hurt1",
+      "holomobs:peko_hurt2",
+      "holomobs:peko_hurt3",
+      "holomobs:peko_hurt4"
+    ],
+    "subtitle": "holomobs:subtitles.pekora.pain"
+  },
+  "peko.death": {
+    "category": "neutral",
+    "sounds": [
+      "holomobs:peko_death1",
+      "holomobs:peko_death2"
+    ],
+    "subtitle": "holomobs:subtitles.pekora.baka"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_comment": "Entity",
+  "entity.holomobs.pekora_rabbit": "Pekora",
+  "entity.holomobs.watame_sheep": "Watame",
+  "entity.holomobs.okayu_cat": "Okayu",
+  "item.holomobs.pekora_rabbit_spawn_egg": "Pekora Spawn Egg",
+  "item.holomobs.watame_sheep_spawn_egg": "Watame Spawn Egg",
+  "item.holomobs.okayu_cat_spawn_egg": "Okayu Spawn Egg",
+
+
+  "holomobs:subtitles.pekora.ambient": "↘↗↘",
+  "holomobs:subtitles.pekora.konpeko": "Konpeko konpeko konpeko!",
+  "holomobs:subtitles.pekora.pain": "Pain Peko",
+  "holomobs:subtitles.pekora.baka": "Bakatare ga!"
+}
