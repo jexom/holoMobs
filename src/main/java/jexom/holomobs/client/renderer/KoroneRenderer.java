@@ -1,7 +1,7 @@
 package jexom.holomobs.client.renderer;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.model.KoroneModel;
 import jexom.holomobs.entity.KoroneEntity;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
@@ -16,7 +16,7 @@ public class KoroneRenderer extends MobRenderer<KoroneEntity, KoroneModel<Korone
 
     @Override
     public ResourceLocation getTextureLocation(KoroneEntity p_110775_1_) {
-        return new ResourceLocation(HoloAnimals.MOD_ID, "textures/entity/korone/korone.png");
+        return new ResourceLocation(HoloMobs.MOD_ID, "textures/entity/korone.png");
     }
 
     protected float getBob(KoroneEntity p_77044_1_, float p_77044_2_) {

@@ -1,7 +1,7 @@
 package jexom.holomobs.client.renderer;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.model.OkayuModel;
 import jexom.holomobs.entity.OkayuEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
@@ -25,7 +25,7 @@ public class OkayuRenderer extends MobRenderer<OkayuEntity, OkayuModel<OkayuEnti
     @Override
     @Nonnull
     public ResourceLocation getTextureLocation(@Nonnull OkayuEntity okayu) {
-        return new ResourceLocation(HoloAnimals.MOD_ID, "textures/entity/okayu/okayu.png");
+        return new ResourceLocation(HoloMobs.MOD_ID, "textures/entity/okayu.png");
     }
 
     protected void scale(OkayuEntity p_225620_1_, MatrixStack p_225620_2_, float p_225620_3_) {

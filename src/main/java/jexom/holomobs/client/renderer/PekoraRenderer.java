@@ -1,6 +1,6 @@
 package jexom.holomobs.client.renderer;
 
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.model.PekoraModel;
 import jexom.holomobs.entity.PekoraEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
@@ -18,6 +18,6 @@ public class PekoraRenderer extends MobRenderer<PekoraEntity, PekoraModel<Pekora
     @Override
     @Nonnull
     public ResourceLocation getTextureLocation(@Nonnull PekoraEntity Pekora) {
-        return new ResourceLocation(HoloAnimals.MOD_ID, "textures/entity/pekora/pekora.png");
+        return new ResourceLocation(HoloMobs.MOD_ID, "textures/entity/pekora.png");
     }
 }

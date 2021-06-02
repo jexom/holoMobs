@@ -2,7 +2,7 @@ package jexom.holomobs.init;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.renderer.*;
 import jexom.holomobs.entity.*;
 import net.minecraft.entity.*;
@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@EventBusSubscriber(modid = HoloAnimals.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = HoloMobs.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class HoloRegistry {
     private static final Map<EntityType<? extends MobEntity>, EntitySpawnPlacementRegistry.IPlacementPredicate> SPAWN_PREDICATES = new HashMap<>();
     public static final Map<EntityType<?>, IRenderFactory> RENDER_FACTORY_MAP = new HashMap<>();
@@ -95,7 +95,7 @@ public class HoloRegistry {
             int eggPrimary,
             int eggSecondary
     ) {
-        ResourceLocation location = new ResourceLocation(HoloAnimals.MOD_ID, name);
+        ResourceLocation location = new ResourceLocation(HoloMobs.MOD_ID, name);
         EntityType<T> entity = EntityType.Builder.of(factory, EntityClassification.CREATURE).sized(width, height).setTrackingRange(64).setUpdateInterval(1).build(location.toString());
         entity.setRegistryName(location);
         SPAWN_PREDICATES.put(entity, canSpawn);
@@ -103,7 +103,7 @@ public class HoloRegistry {
         ATTRIBUTE_MODIFIER_MAP.put(entity, attributes);
 
         Item spawnEgg = new SpawnEggItem(entity, eggPrimary, eggSecondary, (new Item.Properties()).tab(ItemGroup.TAB_MISC));
-        spawnEgg.setRegistryName(new ResourceLocation(HoloAnimals.MOD_ID, name + "_spawn_egg"));
+        spawnEgg.setRegistryName(new ResourceLocation(HoloMobs.MOD_ID, name + "_spawn_egg"));
         SPAWN_EGGS.add(spawnEgg);
         return entity;
     }

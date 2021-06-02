@@ -1,6 +1,6 @@
 package jexom.holomobs.client.renderer;
 
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.model.WatameModel;
 import jexom.holomobs.entity.WatameEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
@@ -19,6 +19,6 @@ public class WatameRenderer extends MobRenderer<WatameEntity, WatameModel<Watame
     @Override
     @Nonnull
     public ResourceLocation getTextureLocation(@Nonnull WatameEntity watame) {
-        return new ResourceLocation(HoloAnimals.MOD_ID, "textures/entity/watame/watame.png");
+        return new ResourceLocation(HoloMobs.MOD_ID, "textures/entity/watame.png");
     }
 }

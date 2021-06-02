@@ -1,6 +1,6 @@
 package jexom.holomobs.client.renderer;
 
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.client.model.SubaruModel;
 import jexom.holomobs.entity.SubaruEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
@@ -20,7 +20,7 @@ public class SubaruRenderer extends MobRenderer<SubaruEntity, SubaruModel<Subaru
     @Override
     @Nonnull
     public ResourceLocation getTextureLocation(@Nonnull SubaruEntity subaru) {
-        return new ResourceLocation(HoloAnimals.MOD_ID, "textures/entity/subaru/subaru.png");
+        return new ResourceLocation(HoloMobs.MOD_ID, "textures/entity/subaru.png");
     }
 
     protected float getBob(SubaruEntity subaruEntity, float partialTick) {

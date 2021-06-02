@@ -31,7 +31,8 @@ public class SubaruModel<T extends SubaruEntity> extends AgeableModel<T> {
         head = new ModelRenderer(this);
         head.setPos(0.0F, 15.0F, -4.0F);
         head.texOffs(0, 0).addBox(-2.0F, -3.0F, -2.0F, 4.0F, 6.0F, 4.0F, 0.0F, false);
-        head.texOffs(16, 6).addBox(-2.0F, -3.0F, 2.0F, 4.0F, 1.0F, 2.0F, 0.0F, false);
+        head.texOffs(44, 0).addBox(-2.5F, -3.8F, -2.5F, 5.0F, 2.0F, 5.0F, -0.2F, false);
+        head.texOffs(16, 6).addBox(-2.0F, -2.5F, 2.0F, 4.0F, 0.1F, 2.0F, 0.29F, false);
         head.texOffs(28, 9).addBox(-1.5F, -0.5F, -4.0F, 3.0F, 1.0F, 2.0F, 0.0F, false);
 
         tail = new ModelRenderer(this);
@@ -82,8 +83,8 @@ public class SubaruModel<T extends SubaruEntity> extends AgeableModel<T> {
             this.legLeft.xRot = MathHelper.cos(limbSwing * 3) * 2 * limbSwingAmount + (float) Math.PI / 3f;
             this.legRight.xRot = MathHelper.cos(limbSwing * 3 + (float) Math.PI) * 2 * limbSwingAmount + (float) Math.PI / 3f;
         }
-        this.wingLeft.zRot = ageInTicks;
-        this.wingRight.zRot = -ageInTicks;
+        this.wingLeft.zRot = 0;
+        this.wingRight.zRot = -0;
         this.tail.yRot = 0;
     }
 

@@ -3,9 +3,15 @@
   "entity.holomobs.pekora_rabbit": "Pekora",
   "entity.holomobs.watame_sheep": "Watame",
   "entity.holomobs.okayu_cat": "Okayu",
+  "entity.holomobs.korone_dog": "Korone",
+  "entity.holomobs.subaru_duck": "Subaru",
+  "entity.holomobs.kiara_chicken": "Kiara",
   "item.holomobs.pekora_rabbit_spawn_egg": "Pekora Spawn Egg",
   "item.holomobs.watame_sheep_spawn_egg": "Watame Spawn Egg",
   "item.holomobs.okayu_cat_spawn_egg": "Okayu Spawn Egg",
+  "item.holomobs.korone_dog_spawn_egg": "Korone Spawn Egg",
+  "item.holomobs.subaru_duck_spawn_egg": "Subaru Spawn Egg",
+  "item.holomobs.kiara_chicken_spawn_egg": "Kiara Spawn Egg",
 
 
   "holomobs:subtitles.pekora.ambient": "↘↗↘",

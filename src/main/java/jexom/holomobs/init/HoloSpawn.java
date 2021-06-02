@@ -1,6 +1,6 @@
 package jexom.holomobs.init;
 
-import jexom.holomobs.HoloAnimals;
+import jexom.holomobs.HoloMobs;
 import jexom.holomobs.util.ConfigHandler;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.util.RegistryKey;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Set;
 
 
-@Mod.EventBusSubscriber(modid = HoloAnimals.MOD_ID)
+@Mod.EventBusSubscriber(modid = HoloMobs.MOD_ID)
 public class HoloSpawn {
 
     @SubscribeEvent(priority = EventPriority.HIGH)
