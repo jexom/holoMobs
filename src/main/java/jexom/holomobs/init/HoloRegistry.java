@@ -80,8 +80,19 @@ public class HoloRegistry {
             KoroneEntity::createAttributes,
             0.6F,
             0.7F,
-            0xFFFFFF,
-            0xffec2b
+            0xb46349,
+            0xffd300
+    );
+    public static final EntityType<KiaraEntity> KIARA = createEntity(
+            "kiara_chicken",
+            KiaraEntity::new,
+            KiaraEntity::canSpawnNaturally,
+            KiaraRenderer::new,
+            KiaraEntity::createAttributes,
+            0.6F,
+            0.7F,
+            0xFF6830,
+            0x44d3cc
     );
 
     private static <T extends MobEntity> EntityType<T> createEntity(
